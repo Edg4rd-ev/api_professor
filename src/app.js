@@ -1,7 +1,9 @@
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const User = require('./models/User')
 
+app.use(cors());
 app.use(express.json());
 
 //create users route
