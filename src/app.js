@@ -73,5 +73,5 @@ app.delete('/delete_teacher/:id_professor', async (req, res) => {
 
 //server port
 app.listen(5000, () => {
-  console.log('online e metendo na porta '+ 5000);
+  console.log('online na porta '+ 5000);
 });
